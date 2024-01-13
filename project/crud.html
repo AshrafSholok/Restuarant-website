@@ -1,0 +1,112 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;1,300&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;1,300&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/crud.css">
+<style>
+    body{
+        background: url(images/bg_1.jpg);
+         background-repeat: repeat;
+     }
+</style>
+
+
+
+
+
+    </head>
+    <body>
+
+      <div class="loading">
+        <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      </div>
+    
+        <div class="first">
+            <!-- <img class="img1" src="./slider/slider-01.jpg" alt="photo"> -->
+            <div class="nav ">
+                <p class="fokir">PIZZA</p>
+                <div class="subnav">
+                    <span><a class="sp text-white" href="page.html" style="color: rgb(234, 175, 24);">Home</a></span>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="menu.html">Menu</a>
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+        <div class="row" id="crud-container" style="padding: 2rem;">
+            <div class="container mt-5">
+                <div class="card p-4">
+                  <h2 class="text-center mb-4">Restaurant Menu</h2>
+                  <form>
+                    <div class="mb-3">
+                      <label for="dishName" class="form-label"> Name</label>
+                      <input type="text" id="dishName" class="form-control" readonly>
+                    </div>
+                    <div class="mb-3">
+                      <label for="dishPrice" class="form-label">Price</label>
+                      <input type="text" id="dishPrice" class="form-control" readonly>
+                    </div>
+                    <div class="mb-3">
+                      <label for="cuisineType" class="form-label">quantity</label>
+                      <input type="text" id="cuisineType" class="form-control">
+                    </div>
+                    
+                    <button id="addBtn" class="btn btn-primary mb-3 w-100">Order</button>
+                  </form>
+                  <table class="table mt-4">
+                    <thead>
+                      <th> Name</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th></th>
+                      <th></th>
+                    </thead>
+                    <tbody id="table">
+            
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+        </div>
+    
+
+
+
+        
+
+<script>
+    
+   </script>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script src="js/crud.js"></script>
+
+    </body>
