@@ -1,9 +1,6 @@
 # Restuarant-website
 Welcome to the Restaurant Website project! This website is designed to manage and display a list of delectable dishes from an API. The project is implemented using HTML, CSS, and JavaScript.
 <h2>Table of contant</h2>
-Welcome to the Restaurant Website project! This web application is designed to manage and display a list of delectable dishes from an API. The project is implemented using HTML, CSS, and JavaScript.
-
-Table of Contents
 Introduction <br>
 Features <br>
 Installation <br>
